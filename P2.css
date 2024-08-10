@@ -1,0 +1,233 @@
+* {
+  margin: 0vh;
+  padding: 0vh;
+}
+body {
+  background-color: #1f2123;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  transform: translateY(7%);
+}
+.butto {
+  background-color: #17181a;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  padding-bottom: 3vh;
+  border-radius: 7vh;
+  animation: boxShadowPulse 2s ease-in-out infinite;
+}
+
+@keyframes boxShadowPulse {
+  0% {
+    box-shadow: 6px 3px 61px 15px rgba(0, 107, 181, 0.78);
+  }
+  50% {
+    box-shadow: 6px 3px 61px 15px rgba(0, 107, 181, 0.4);
+  }
+  100% {
+    box-shadow: 6px 3px 61px 15px rgba(0, 107, 181, 0.78);
+  }
+}
+
+.display {
+  border-radius: 5vh;
+  margin-top: 3vh;
+  height: 20vh;
+  background-color: #303136;
+  margin-bottom: 3vh;
+}
+
+.hi {
+  padding-right: 3vw;
+  text-align: end;
+  font-size: 6vh;
+  color: #1786ed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  padding-top: 5vh;
+  padding-right: 3vw;
+  text-align: end;
+  font-size: 5vh;
+  color: #1786ed;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.but button {
+  background-color: #303136;
+  color: #2a99e6;
+  border: none;
+  font-size: 3vh;
+  border-radius: 4vh;
+  margin-left: 2vw;
+  padding: 1vw 2vw 1vw 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.but {
+  margin-left: -0.4vh;
+}
+.align {
+  display: flex;
+  margin-bottom: 0.5vh;
+  margin-top: 0.5vh;
+}
+.ac button {
+  background-color: #616161;
+  color: #a5a5a5;
+  border: none;
+  font-size: 3.5vh;
+  border-radius: 3vh;
+  margin-left: 1.8vw;
+  margin-right: 0.8vw;
+  margin-top: 1.6vh;
+  padding: 1vw 1.5vw 1vw 1.5vw;
+}
+.bu button {
+  background-color: #005db2;
+  color: #339dff;
+  border: none;
+  font-size: 3.5vh;
+  border-radius: 3vh;
+  margin-left: 2.6vw;
+  margin-right: 0.8vw;
+  margin-top: 1.6vh;
+  padding: 1vw 2vw 1vw 2vw;
+}
+
+.seven button {
+  background-color: #303136;
+  color: #2a99e6;
+  border: none;
+  font-size: 3.5vh;
+  border-radius: 3vh;
+  margin-left: 2.5vw;
+  margin-right: 1.2vw;
+  margin-top: 1.6vh;
+  padding: 1vw 1.5vw 1vw 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bui {
+  display: flex;
+}
+.seven {
+  margin-left: -0.4vw;
+}
+.bi {
+  display: flex;
+}
+.pos button {
+  background-color: #005db2;
+  color: #339dff;
+  border: none;
+  font-size: 3.5vh;
+  border-radius: 3vh;
+  margin-left: 2.6vw;
+  margin-right: 0.8vw;
+  margin-top: 2.6vh;
+  padding: 1vw 1.7vw 1vw 1.7vw;
+  height: 14vh;
+}
+.bn {
+  position: relative;
+  top: -5vh;
+  left: -0.4vh;
+}
+.seve button {
+  background-color: #303136;
+  color: #2a99e6;
+  border: none;
+  font-size: 3.5vh;
+  border-radius: 3vh;
+  margin-left: 2.5vw;
+  margin-right: 1.2vw;
+  padding: 1vw 1.5vw 1vw 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.seve {
+  margin-left: -0.4vh;
+}
+.sev {
+  position: relative;
+  top: -1.7vh;
+  left: -0.9vh;
+}
+.sev button {
+  background-color: #303136;
+  color: #2a99e6;
+  border: none;
+  font-size: 3.5vh;
+  border-radius: 3vh;
+  margin-left: 2.5vw;
+  margin-right: 1.2vw;
+  padding: 1vw 1.7vw 1vw 1.7vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.butt {
+  display: flex;
+}
+.equal button {
+  background-color: #1991ff;
+  color: white;
+  border: none;
+  font-size: 3.5vh;
+  border-radius: 3vh;
+  margin-top: -2vh;
+  margin-left: 2.7vw;
+  padding: 1vw 1.7vw 1vw 1.7vw;
+  width: 22vh;
+}
+@media (max-width: 768px) {
+  .but {
+    margin-left: 0.6vw;
+  }
+  .align {
+    margin-left: 1vw;
+  }
+  .seven {
+    margin-left: 1vw;
+  }
+  .seve {
+    margin-left: 1.2vw;
+  }
+  .sev {
+    margin-left: 1.6vw;
+  }
+  .equal button {
+    width: 15vh;
+  }
+}
+@media (max-width: 300px) {
+  .but {
+    margin-left: 3.4vw;
+  }
+  .align {
+    margin-left: 5vw;
+  }
+  .seven {
+    margin-left: 6vw;
+  }
+  .seve {
+    margin-top: -3vh;
+    margin-left: 6.2vw;
+  }
+  .bu {
+    margin-left: 5vw;
+  }
+  .bu button {
+    margin-right: 1.2vw;
+  }
+  .pos {
+    margin-left: 5vw;
+  }
+  .pos button {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+  }
+  .sev {
+    margin-left: 7.6vw;
+  }
+  .equal button {
+    width: 12vh;
+  }
+}
